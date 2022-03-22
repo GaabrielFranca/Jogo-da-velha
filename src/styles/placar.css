@@ -1,48 +1,62 @@
 .placar{
-     display: flex;
-    justify-content: center;
-    width: 100%;
-    gap: 50%;
-    align-items: center;
+    display: flex;
+   justify-content: center;
+   width: 100%;
+   gap: 50%;
+   align-items: center;
 }
+
 @media (max-width: 750px){
     .placar{
-    
+    display: flex;
     gap: 10px;
     }
-
+}
 .estiloPlacar{
- display: flex;
- flex-direction: column;
- align-items: center;
- border: 3px solid rgb(255, 255, 255);
- width: 250px;
- height: 250px;
- width: 100%;
- border-radius: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+border: 3px solid rgb(255, 255, 255);
+width: 250px;
+height: 250px;
+width: 100%;
+border-radius: 20px;
 }
 @media (max-width: 750px){
     .estiloPlacar{
-    width: calc(6vw + 8em);
-    height: 100px;
-    
-    }
+        width: calc(6vw + 8em);
+        height: 100px;
+
+}
+}
 
 .logoPlacar{
-    font-size: 25px;
-    margin: 0 auto;
+   font-size: 25px;
+   margin: 0 auto;
 
 }
 
 #placar1{
-    background: brown;
-  
+   background: brown;
+
 }
+
+
 
 #placar2{
 background: gray;
-display: flex;
 }
 
+@media (max-width: 750px){
+.player1{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
 
-
+}
+.player2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+}
