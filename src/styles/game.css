@@ -17,7 +17,16 @@ body{
   border: 3px solid rgb(255, 255, 255);
  
 }
+@media (max-width: 750px){
+ .tabuleiro{
+   position: static;
+   height: 100%; 
+   display: flex;
+   flex-direction: column; 
+ }
 
+}
+  
 .game{
     
     position: absolute;
@@ -26,6 +35,11 @@ body{
    align-items: center;
   
 }
+@media (max-width: 750px){
+    .game{
+      position: static;
+      display: flex;
+    }
 
 .titulo{
     color: white;
