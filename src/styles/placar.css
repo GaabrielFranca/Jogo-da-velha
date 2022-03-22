@@ -1,0 +1,45 @@
+.placar{
+     display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 50%;
+    align-items: center;
+}
+
+
+.estiloPlacar{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ border: 3px solid rgb(255, 255, 255);
+ width: 250px;
+ height: 250px;
+ width: 100%;
+ border-radius: 20px;
+}
+
+.logoPlacar{
+    font-size: 25px;
+    margin: 0 auto;
+
+}
+
+#placar1{
+    background: brown;
+  
+}
+
+#placar2{
+background: gray;
+}
+
+@media (max-width: 750px){
+
+.placar{
+    
+
+      
+}
+}
+  
+

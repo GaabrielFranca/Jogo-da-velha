@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="./src/styles/game.css" rel="stylesheet">
+    <link href="./src/styles/placar.css" rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="./src/imagens/idosos.png" />
+    <title>Jogo da velha</title>
+</head>
+
+<body>
+
+    <main class="tabuleiro">
+
+        <header class="game">
+            <h3 class="titulo">Jogo da velha</h3>
+
+            <section class="coluna">
+
+                <div id="0" class="quadrado"></div>
+                <div id="1" class="quadrado"></div>
+                <div id="2" class="quadrado"></div>
+            </section>
+            <section class="coluna">
+                <div id="3" class="quadrado"></div>
+                <div id="4" class="quadrado"></div>
+                <div id="5" class="quadrado"></div>
+            </section>
+            <section class="coluna">
+                <div id="6" class="quadrado"></div>
+                <div id="7" class="quadrado"></div>
+                <div id="8" class="quadrado"></div>
+
+            </section>
+        </header>
+
+        <section class="placar">
+            <div class="player1">
+                <figure class="LogoPlayer1">
+                    <img src="./src/imagens/shield.png" alt="escudo">
+                </figure>
+
+                <div class="estiloPlacar" id="placar1">
+                    <h4 class="logoPlacar">player 1</h4>
+                    <div class="resultado">
+                        <p>O O O O O</p>
+                    </div>
+                </div>
+            </div>
+            <div class="player2 ">
+                <figure class="LogoPlayer2">
+                    <img src="./src/imagens/espadas-cruzadas.png" alt="espada">
+                </figure>
+
+                <div class="estiloPlacar" id="placar2">
+                    <h4 class="logoPlacar">player 2</h4>
+                    <div class="resultado">
+                        <p> X X X X X </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <button class="resetar">Resetar Placar</button>
+
+
+    <script src="./src/scripts/game.js"></script>
+    <script src="./src/scripts/interface.js"></script>
+</body>
+
+</html>
