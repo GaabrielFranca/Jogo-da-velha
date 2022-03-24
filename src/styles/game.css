@@ -26,6 +26,7 @@ body{
       flex-direction: column; 
       
     }
+  
    }
    
 .game{
@@ -41,6 +42,9 @@ body{
       position: static;
       display: flex;
     }
+    .game .titulo{
+        margin: 15px;  
+      }
 }
 
 .titulo{
@@ -75,6 +79,12 @@ height: 100px;
 background:linear-gradient(rgb(187, 181, 181), rgb(124, 32, 32));
 border: solid rgb(255, 255, 255) 2px;
 border-radius: 10px;
+}
+@media (max-width: 350px){
+    .quadrado{
+      width: 65px;
+      height: 65px;
+    }
 }
 
 .quadrado:hover{

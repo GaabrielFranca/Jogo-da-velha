@@ -13,10 +13,15 @@ document.addEventListener("DOMContentLoaded", function () {
 function identificarClick(evento) {
     let quadrado = evento.target.id
 
-    trocarEntreXouO(quadrado)
+    if (trocarEntreXouO(quadrado)) {
+
+        setTimeout(() => {
+            alert("acabou")
+        }, 1)
+    }
     adicionarXouO()
 
-    console.log(quadrado)
+
 }
 
 
