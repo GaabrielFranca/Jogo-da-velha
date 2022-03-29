@@ -64,35 +64,21 @@ function conferirVitoria() {
 }
 
 
-
-// var teste = [
-//     [0, 1, 2,],
-//     [3, 4, 5,],
-//     [6, 7, 8,],
-
-//     [0, 3, 6],
-//     [1, 4, 7],
-//     [2, 5, 8],
-
-//     [0, 4, 8],
-//     [2, 4, 6]
+function resetarGamer() {
 
 
-// ]
+    if (fimDeJogo === true) {
+        fimDeJogo = false
+    }
 
+    if (contador === 1) {
+        contador = 0
+    }
 
-// teste.forEach(elemento => {
-
-//     let pos1 = elemento[0]
-//     let pos2 = element[1]
-//     let pos3 = element[2]
-
-
-
-//     console.log(element)
-
-// });
-
+    if (tabuleiro != "") {
+        tabuleiro = ['', '', '', '', '', '', '', '', '',]
+    }
+}
 
 
 

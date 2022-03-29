@@ -94,18 +94,22 @@ border-radius: 10px;
 }
 
 
-.resetar{
-    display: flex;
-   margin: auto;
-   padding: 1vw;
-   margin-top: 10px;
-
-
+.btn-estilo{
+  display: flex;
+  
+  margin: auto;
+  padding: 1vw;
+  margin-top: 10px;
+  background: #000;
+  color: white;
+  transition: ease-in-out 0.3s;
+  
 }
-.resetar:hover{
-
-    cursor: pointer;
-
+.btn-estilo:hover{
+  background: white;
+  color: black;
+  cursor: pointer;
+    transform: scale(1.1);
 }
 .x{
     background-image:url("../imagens/x.png");
